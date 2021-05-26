@@ -11,10 +11,10 @@ namespace Threads
         public static char ch { get; set; } = '*';
         static void Main(string[] args)
         {
-            // Initialize new Program object
+            // Declare new Program
             Training4 pg = new Training4();
 
-            // Initialize new Thread object
+            // Declare new Thread
             Thread thread1 = new Thread(new ThreadStart(pg.Method1));
 
             // Start thread

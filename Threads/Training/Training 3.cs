@@ -12,10 +12,10 @@ namespace Threads
 
         static void Main(string[] args)
         {
-            // Initialize new Program object
+            // Declare new Program
             Training3 pg = new Training3();
 
-            // Initialize new Thread object
+            // Declare new Thread
             Thread thread1 = new Thread(new ThreadStart(pg.Method1));
 
             // Start thread
@@ -43,7 +43,7 @@ namespace Threads
 
         public void Method1()
         {
-            // Initialize new Random object
+            // Declare new Random
             Random rg = new Random();
 
             // While loop if alarms is less than 3

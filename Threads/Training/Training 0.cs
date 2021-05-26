@@ -10,10 +10,10 @@ namespace Threads
     {
         static void Main(string[] args)
         {
-            // Initialize new Program object
+            // Declare new Program
             Training0 pg = new Training0();
 
-            // Initialize new Thread object
+            // Declare new Thread
             Thread thread1 = new Thread(new ThreadStart(pg.WorkThreadFunction));
 
             // Set thread name
