@@ -22,6 +22,8 @@ namespace Threads
 
             Thread thread2 = new Thread(new ThreadStart(pg.Method2));
             thread2.Start();
+
+            Console.Read();
         }
 
         public void Method1()
